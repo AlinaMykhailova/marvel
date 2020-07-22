@@ -1,0 +1,255 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: rgb(43, 43, 43);
+}
+.main {
+  width: 1200px;
+  border: 2px solid white;
+}
+.page-header {
+  background-color: white;
+  position: relative;
+  padding: 20px;
+  min-height: 20px;
+  z-index: 5;
+  color: white;
+}
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  margin: 0;
+}
+.logo-img {
+  width: 150px;
+  height: 70px;
+}
+.main-menu-ul {
+  margin: 0;
+  margin-left: 180px;
+  padding: 0;
+  list-style: none;
+}
+.main-menu-li {
+  display: inline-block;
+  margin-right: 1em;
+}
+.main-menu-a {
+  color: black;
+}
+
+.about-marvel {
+  height: 60px;
+  margin: 0 20px;
+  padding-top: 30px;
+  padding-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  box-shadow: 0 0 3px #cccccc;
+}
+.main-info {
+  box-sizing: content-box;
+  margin: 20px 20px;
+}
+
+.title {
+  margin-left: -20px;
+  padding: 5px;
+  border: 2px solid red;
+  background-color: red;
+  color: black;
+}
+.main-info p {
+  padding-top: 15px;
+  text-align: justify;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+.quote {
+  font-family: Courier;
+  line-height: 17px;
+  font-style: italic;
+}
+.link {
+  padding: 5px;
+  border: 2px solid white;
+  background-color: whitesmoke;
+  color: black;
+}
+.page-footer {
+  min-height: 50px;
+  padding: 20px;
+  font-size: 14px;
+  color: black;
+  background-color: white;
+}
+.page-footer ::after {
+  display: table;
+  clear: both;
+}
+.page-footer .info {
+  float: left;
+}
+.page-footer .info img {
+  width: 50px;
+  height: 50px;
+  margin-right: 0.5em;
+  vertical-align: middle;
+  border: 2px solid whitesmoke;
+  box-shadow: 0 0 4px #c0392b;
+  transform: rotate(-5deg);
+}
+.page-footer .copyright {
+  float: right;
+  padding-top: 20px;
+  font-size: 12px;
+}
+
+.row {
+  overflow: hidden;
+  margin: 5px 5px;
+}
+.row img {
+  width: 200px;
+  height: 300px;
+}
+.paragraph-left {
+  float: left;
+  width: 50%;
+}
+.paragraph-right {
+  float: right;
+  text-align: center;
+  width: 50%;
+}
+a {
+  scroll-behavior: smooth;
+}
