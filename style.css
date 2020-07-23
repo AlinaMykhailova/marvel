@@ -243,12 +243,11 @@ body {
 }
 .paragraph-left {
   float: left;
-  width: 50%;
 }
 .paragraph-right {
-  float: right;
-  text-align: center;
-  width: 50%;
+  text-align: left;
+  padding: 0 25px;
+  overflow: hidden;
 }
 a {
   scroll-behavior: smooth;
